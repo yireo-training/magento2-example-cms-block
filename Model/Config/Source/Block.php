@@ -1,5 +1,5 @@
 <?php
-namespace Yireo\TestCmsBlock\Model\Config\Source;
+namespace Yireo\ExampleCmsBlock\Model\Config\Source;
 
 use Magento\Cms\Model\ResourceModel\Block\CollectionFactory;
 
