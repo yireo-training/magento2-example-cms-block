@@ -7,7 +7,7 @@ class Custom extends AbstractBlock
 {
     const CONFIG_PATH = 'cms/yireo_examplecmsblock/block_name';
 
-    protected function _toHtml()
+    protected function _toHtml() : string
     {
         $blockId = $this->_scopeConfig->getValue(self::CONFIG_PATH);
 

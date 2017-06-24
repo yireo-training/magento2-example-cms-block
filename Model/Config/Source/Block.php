@@ -32,7 +32,7 @@ class Block implements \Magento\Framework\Option\ArrayInterface
      *
      * @return array
      */
-    public function toOptionArray()
+    public function toOptionArray() : array
     {
         if (empty($this->options)) {
 
