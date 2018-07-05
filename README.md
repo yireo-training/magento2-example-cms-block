@@ -4,7 +4,7 @@ This module allows you to configure a CMS block in the backend and then display 
 ## Installation
 To install use the following composer command:
 
-    composer require yireo-training/magento2-example-cms-block
+    composer require yireo-training/magento2-example-cms-block:dev-master
 
 Next enable the module:
 
