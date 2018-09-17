@@ -14,6 +14,12 @@ class Custom extends AbstractBlock
      */
     private $scopeConfig;
 
+    /**
+     * Custom constructor.
+     * @param ScopeConfigInterface $scopeConfig
+     * @param Context $context
+     * @param array $data
+     */
     public function __construct(
         ScopeConfigInterface $scopeConfig,
         Context $context,
