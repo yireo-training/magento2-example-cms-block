@@ -1,4 +1,5 @@
 <?php
+
 namespace Yireo\ExampleCmsBlock\Model\Config\Source;
 
 use Magento\Cms\Model\ResourceModel\Block\CollectionFactory;
@@ -32,7 +33,7 @@ class Block implements \Magento\Framework\Option\ArrayInterface
      *
      * @return array
      */
-    public function toOptionArray() : array
+    public function toOptionArray(): array
     {
         if (empty($this->options)) {
 
